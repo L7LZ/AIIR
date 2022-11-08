@@ -1,1 +1,1 @@
-from hashtags.func import extract_hashtags
+from hashtags.func import hashtags

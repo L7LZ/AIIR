@@ -1,7 +1,7 @@
 import re # импорт модуля регулярных выражений
 
 
-def extract_hashtags(text): # функция для печати всех хэштегов
+def hashtags(text): # функция для печати всех хэштегов
     regex = "#(\w+)" # регулярное выражение
 
     hashtag_list = re.findall(regex, text) # убираем хэштеги
@@ -13,7 +13,7 @@ def extract_hashtags(text): # функция для печати всех хэш
 
 if __name__ == "__main__":
     text = "#Проверка #работы программы"
-    extract_hashtags(text)
+    hashtags(text)
 
 
 
